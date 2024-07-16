@@ -1,0 +1,13 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||TelegramDesktop ahk_class Qt51513QWindow|||1|
+2|[LoopStart]|LoopStart|999999999|0|Loop|||||3|
+3|Left Click, Continue, FoundX, FoundY|0, 0, 2560, 1440, 0xCDDC00, 0, Fast RGB|1|0|PixelSearch||Window|||5|
+4|Left Click, Continue, FoundX, FoundY|0, 0, 2560, 1440, 0xE6FE91, 0, Fast RGB|1|0|PixelSearch||Window|||9|
+5|Left Click, Continue, FoundX, FoundY|0, 0, 2560, 1440, 0x66D2E1, 0, Fast RGB|1|0|PixelSearch||Window|||13|
+6|Left Click, Continue, FoundX, FoundY, 0|0, 0, 2560, 1440, D:\Progs\MacroCreator\Screenshots\Screen_20240603233605.png|1|0|ImageSearch||Window|||17|
+7|Left Click, Continue, FoundX, FoundY, 0|0, 0, 2560, 1440, D:\Progs\MacroCreator\Screenshots\Screen_20240606123844.png|1|0|ImageSearch||Window|||21|
+8|[LoopEnd]|LoopEnd|1|0|Loop|||||25|
+
